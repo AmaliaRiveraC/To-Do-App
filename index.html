@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html land="es">
+    <head>
+        <meta charset="utf-8">
+        <title>TO DO APP</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="center">TO DO APP</h1>
+        </header>
+        <form>
+            <label>
+                <textarea id="mensaje"></textarea>
+                <input type="submit" value="Enviar" onclick="agregarTarea(event)">
+            </label>
+            <section id="tareas">
+                <!--<article>
+                    <input type="checkbox" id="tareaTerminada">
+                    <label for="tareaTerminada">
+                        <button type="submit">Eliminar</button>
+                    </label>
+                </article> -->
+            </section>
+        </form>
+        <script src="js/main.js"></script>
+    </body>
+</html>
